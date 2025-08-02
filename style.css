@@ -1,3 +1,14 @@
+:root {
+    --fonte-destaque: 'Passion One';
+    --fonte-padrao:'Sriracha', Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: aliceblue;
     margin: auto;
@@ -7,10 +18,7 @@ body {
     
 }
 
-:root {
-    --fonte-destaque: 'Passion One';
-    --fonte-padrao:'Sriracha', Arial, Verdana, Helvetica, sans-serif;
-}
+
 
 header {
     background-color: black;
@@ -65,14 +73,14 @@ main {
     background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
-    min-width: 100vh;
-
+    background-position: center center;
+    
 
 }
 
 .fundo-joaninha p {
-    background-color: rgba(0, 0, 0, 0.199);
- 
-
+    
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    
 }

@@ -14,6 +14,8 @@ body {
     margin: auto;
     padding: auto;
     font-family: var(--fonte-padrao);
+    max-width: 100vw;
+    height: auto;
     
     
 }
@@ -24,7 +26,7 @@ header {
     background-color: black;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     max-width: 100vw;
     margin: auto;
 
@@ -68,19 +70,33 @@ main {
  
 }
 
-.fundo-joaninha {
+.fundo-joaninha  {
     background-image: url(imagens/background001.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center right;
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    top: 50%;
+   
     
 
 }
 
 .fundo-joaninha p {
-    
+
     background-color: rgba(0, 0, 0, 0.582);
     color: white;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    padding:30px 10px 30px 30px;
+    margin: 20px 10px 20px 0px;
+
+    
     
 }

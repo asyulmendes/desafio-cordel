@@ -1,86 +1,100 @@
 :root {
-    --fonte-destaque: 'Passion One';
-    --fonte-padrao:'Sriracha', Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque: "Passion One";
+  --fonte-padrao: "Sriracha", Arial, Verdana, Helvetica, sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    min-height: 100vh;
-    background-color: darkgrey;
-    font-family: var(--fonte-padrao);
-
+html,
+body {
+  min-height: 100vh;
+  background-color: darkgrey;
+  font-family: var(--fonte-padrao);
 }
-
 
 header {
-    background-color: black;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 70px;
-    max-width: 100vw;
-    margin: auto;
-
+  background-color: black;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  max-width: 100vw;
+  margin: auto;
 }
 
-header  h1 {
-    color: white;
-    font-family: var(--fonte-destaque);
-    font-size: 3.5rem;
-    font-variant:small-caps; /*vai deixar as primeiras letras maiúsculas */
+header h1 {
+  color: white;
+  font-family: var(--fonte-destaque);
+  font-size: 3.5rem;
+  font-variant: small-caps; /*vai deixar as primeiras letras maiúsculas */
 }
 
 header p {
-    color: white;
-    font-family: var(--fonte-destaque);
-    font-size: 1.2rem;
-    font-weight: lighter;
+  color: white;
+  font-family: var(--fonte-destaque);
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
-header a , footer a {
-    text-decoration: none;
-    color: white;
+header a,
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
- head a:hover, footer a:hover{
-    text-decoration: underline;
+head a:hover,
+footer a:hover {
+  text-decoration: underline;
 }
 
 abbr {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
 }
 .normal {
   background-color: white;
   color: black;
- 
 }
 
 .imagem {
-  background-color: rgba(51, 51, 51);
+  display: flex;
+  padding: 10px;
+  background-size: cover;
+  background-position: right center;
   color: white;
+  background-attachment: fixed;
 }
 
-.imagem > p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.644);
+#img1 {
+  background-image: url(imagens/background001.jpg);
+ 
 }
 
+#img2 {
+    background-image: url(imagens/background002.jpg);
+   
+}
+
+.p-img {
+  width: 500px;
+  height: 500px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.700);
+}
 
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
